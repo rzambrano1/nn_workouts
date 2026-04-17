@@ -1,0 +1,10 @@
+project: ${experiment_name}
+entity: rzambrano1-none               # Your W&B username or team name (null defaults to you)
+mode: "online"                        # Can be "online", "offline", or "disabled"
+group: "testing_mlp"                  # Useful for grouping multiple runs (e.g., "cross-validation")
+job_type: "train"
+notes: "Hydra + W&B + Optuna integration with a simple MLP"
+tags: ["hydra", "W&B", "mlp"]
+
+# Optional: Log the specific config used
+log_model: "all"                      # Options: "all", "latest", or null

@@ -1,0 +1,4 @@
+n_inputs: 3
+neurons_in_hidden_layer_1: 4
+neurons_in_hidden_layer_2: 4 # ${model.neurons_in_hidden_layer_1} An example of interponation
+n_outputs: 1

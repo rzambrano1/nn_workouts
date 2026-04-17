@@ -1,0 +1,5 @@
+learning_rate: 0.01
+epochs: 5000
+early_stop_threshold: 0.01
+
+

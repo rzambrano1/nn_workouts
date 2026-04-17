@@ -1,0 +1,11 @@
+# top-level config.yaml acts as a "menu" that selects which specific files to load from configurations in subdirectories/folders
+defaults:
+  - training: default  # Looks for conf/training/default.yaml
+  - data: train_set
+  - model: mlp       
+  - logging: wandb
+  - _self_             # Allows local overrides in this file
+
+# You can still add global parameters here
+architecture: MLP
+experiment_name: "integrated_run_example"
